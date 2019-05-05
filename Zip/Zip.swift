@@ -177,7 +177,7 @@ public class Zip {
             
             var pathString = String(cString: fileName)
             
-            guard pathString.characters.count > 0 else {
+            guard pathString.count > 0 else {
                 throw ZipError.incorrectFileName
             }
             
