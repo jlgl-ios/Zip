@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Zip"
-  s.version          = "1.1.0"
+  s.version          = "1.1.1"
   s.summary          = "Zip and unzip files in Swift."
   s.swift_version    = "5.0"
 
